@@ -30,11 +30,11 @@ This project is a simple random word guessing game. It selects a random word fro
 1. Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/).
 2. Clone this repository to your local machine using:
     ```sh
-    git clone https://github.com/your-username/random-word-guessing-game.git
+    git clone https://github.com/isaac-nabe/hangman202.git
     ```
 3. Navigate to the project directory:
     ```sh
-    cd random-word-guessing-game
+    cd hangman202
     ```
 
 ## Usage Instructions
