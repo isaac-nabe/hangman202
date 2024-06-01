@@ -1,11 +1,4 @@
-# Hangman
-Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
-
-This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
-
-
-## Fri 31 May 2024 - 
-# HANGMAN GAME
+# Hangman Game
 
 ## Table of Contents
 
@@ -17,13 +10,14 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 ## Description
 
-This project is a simple random word guessing game. It selects a random word from a predefined list of fruits and prompts the user to enter a single letter. The game checks if the input is valid (i.e., a single alphabetical character) and provides feedback accordingly. The aim of this project is to practice basic Python programming concepts, including user input, conditionals, and using the random module.
+This project is a simple random word guessing game. It selects a random word from a predefined list of fruits and prompts the user to enter a single letter. The game checks if the input is valid (i.e., a single alphabetical character) and whether the guessed letter is in the chosen word, providing appropriate feedback.
 
 ### What I Learned
 
 - How to use the `random` module in Python to select a random element from a list.
 - How to handle user input and validate it using conditionals.
 - Basic error handling and user feedback.
+- Encapsulation and modularization of code using functions.
 
 ## Installation Instructions
 
@@ -41,21 +35,22 @@ This project is a simple random word guessing game. It selects a random word fro
 
 1. Run the script using Python:
     ```sh
-    python milestone_2.py
+    python milestone_3.py
     ```
 2. Follow the on-screen prompts to enter a single letter.
-3. The game will check if your input is valid and provide feedback.
+3. The game will check if your input is valid and if the guessed letter is in the randomly chosen word, providing feedback accordingly.
 
 ## File Structure
 
 
 Hangman202/
 ├── milestone_2.py
+├── milestone_3.py
 ├── README.md
 
 
-
-- `milestone_2.py`: The main script file containing the game logic for the second milestone.
+- `milestone_2.py`: The main script file containing the *draft* game logic for the second milestone.
+- `milestone_3.py`: Contains the refactored code for the third milestone. This file contains a more developed hangman concept.
 - `README.md`: This README file containing project information and instructions.
 
 ## License
