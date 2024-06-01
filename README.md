@@ -44,7 +44,8 @@ This project is a simple random word guessing game. It selects a random word fro
 
 
 Hangman202/
-├── milestone_2.py
+
+├── milestone_2
 ├── milestone_3.py
 ├── README.md
 
