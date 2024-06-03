@@ -40,7 +40,12 @@ The aim of this project is to practice object-oriented programming concepts in P
 
 1. Run the script using Python:
     ```sh
-    python milestone_5.py
+    python milestone_5.py    # Run this for final file *without* refactor/optimisation
+    
+   *or*
+
+    python milestone_5_ref-op.py    # Run this for final file *with* refactor & optimisation.
+
     ```
 2. The game will prompt you to guess a letter. You need to input a single alphabetical character. If the guessed letter is in the word, it will be revealed in the word. If not, you will lose a life. The game continues until you either guess the word or run out of lives.
 
@@ -61,7 +66,8 @@ Hangman202/
 ├── milestone_2.py
 ├── milestone_3.py
 ├── milestone_4.py
-├── milestone_5.py
+├── milestone_5
+├─milestone_5_ref-op.py
 ├── README.md
 ```
 
@@ -69,7 +75,8 @@ Hangman202/
 - **milestone_2.py**: Previous draft script. The first script containing the draft concepts for the game functions.
 - **milestone_3.py**: Previous draft script. Contains the refactored code for the third milestone. This file contains a more developed Hangman concept.
 - **milestone_4.py**: Previous draft script. Contains the Hangman class and game logic.
-- **milestone_5.py**: Main script containing the Hangman class and final game logic.
+- **milestone_5.py**: Main Script containing Hangman game, not refactored & optimised.
+- **milestone_5_ref-op.py**: Main script containing the Hangman game, refactored & optimised with full documentation docstrings & comments.
 - **README.md**: This README file.
 
 
