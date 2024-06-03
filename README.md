@@ -23,6 +23,13 @@ The aim of this project is to practice object-oriented programming concepts in P
 - How to manage class attributes and methods.
 - How to handle user input and validate it.
 - How to implement game logic using loops and conditionals.
+- How to use markdown language in order to edit the README.md of a github repository.
+- Solidified my understanding of github staging, commit, push & pull processes.
+- To *REALLY* pay attention to and keep track of the data pipeline...
+    - *I regularly found myself forgetting to add self. in front of an attribute.*
+    - *I was challenged by the process of trying to simplify the code enough while maintaining its robustness.*
+    - *I found it very important to break code down into single functions, rather than trying to achieve too much with one function.*
+    - *Super important to include debugging processes to code while testing it's functionality to make sure it actually does what it says on the tin.*
 
 ## Installation Instructions
 
