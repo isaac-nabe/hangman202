@@ -45,7 +45,7 @@ The aim of this project is to practice object-oriented programming concepts in P
    ***or***...
    
     ```
-    python milestone_5_ref-op.py    # Run this for final file *with* refactor & optimisation.
+    python milestone_5_ref-op.py    # Run this for final file *with* refactor & optimisation
 
     ```
 3. The game will prompt you to guess a letter. You need to input a single alphabetical character. If the guessed letter is in the word, it will be revealed in the word. If not, you will lose a life. The game continues until you either guess the word or run out of lives.
