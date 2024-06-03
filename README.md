@@ -9,8 +9,6 @@
 5. [License](#license)
 
 ## Description
-
-## Description
 This project implements a simple Hangman game in Python. The objective of the game is for the player to guess a randomly selected word letter by letter. The player has a limited number of lives and loses a life for each incorrect guess. The game ends when the player either guesses the word correctly or runs out of lives.
 
 The aim of this project is to practice object-oriented programming concepts in Python, such as classes, methods, and attributes. Additionally, it involves working with loops, conditionals, and user input handling.
@@ -42,39 +40,40 @@ The aim of this project is to practice object-oriented programming concepts in P
 
 1. Run the script using Python:
     ```sh
-    python milestone_4.py
+    python milestone_5.py
     ```
 2. The game will prompt you to guess a letter. You need to input a single alphabetical character. If the guessed letter is in the word, it will be revealed in the word. If not, you will lose a life. The game continues until you either guess the word or run out of lives.
 
 ## Example
+```
 Guess a letter: a
-Good Guess! a is in the word!
+Good guess! a is in the word!
 Current word: a _ _ _ _
 
 Guess a letter: b
-Sorry, b is not in the word. Try Again.
+Sorry, b is not in the word. Try again.
 You have 4 lives left.
+```
 
 ## File Structure
-
-
+```
 Hangman202/
+├── milestone_2.py
+├── milestone_3.py
+├── milestone_4.py
+├── milestone_5.py
+├── README.md
+```
 
-├── `milestone_2.py`# Previous draft script.
+### Description of Files
+- **milestone_2.py**: Previous draft script. The first script containing the draft concepts for the game functions.
+- **milestone_3.py**: Previous draft script. Contains the refactored code for the third milestone. This file contains a more developed Hangman concept.
+- **milestone_4.py**: Previous draft script. Contains the Hangman class and game logic.
+- **milestone_5.py**: Main script containing the Hangman class and final game logic.
+- **README.md**: This README file.
 
-├── `milestone_3`py# Previous draft script.
-
-├─`milestone_4.py`# Main script containing the Hangman class and game logic
-
-├── `README.md`
-
-
-- `milestone_2.py`: The main script file containing the *draft* game logic for the second milestone.
-- `milestone_3.py`: Contains the refactored code for the third milestone. This file contains a more developed hangman concept.
-- `milestone_4.py`: 
-- `README.md`: This README file containing project information and instructions.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://choosealicense.com/licenses/mit/) file for more details.
 
