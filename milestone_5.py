@@ -70,11 +70,11 @@ def play_game(word_list):
         if game.num_lives == 0:
             print('You lost!')
             break
-        elif game.num_letters > 0:
-            game.ask_for_input()
-        else:
+        elif '_' not in game.word_guessed:
             print('Congratulations. You won the game!')
             break
+        else:
+            game.ask_for_input()
 
 
 if __name__ == "__main__":
