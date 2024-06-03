@@ -62,7 +62,7 @@ Hangman202/
 
 ├── `milestone_2.py`# Previous draft script.
 
-├── `milestone_3.py# Previous draft script.
+├── `milestone_3`py# Previous draft script.
 
 ├─`milestone_4.py`# Main script containing the Hangman class and game logic
 
