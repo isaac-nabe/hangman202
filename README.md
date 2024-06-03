@@ -41,13 +41,14 @@ The aim of this project is to practice object-oriented programming concepts in P
 1. Run the script using Python:
     ```sh
     python milestone_5.py    # Run this for final file *without* refactor/optimisation
-    
-   *or*
-
+    ```
+   ***or***...
+   
+    ```
     python milestone_5_ref-op.py    # Run this for final file *with* refactor & optimisation.
 
     ```
-2. The game will prompt you to guess a letter. You need to input a single alphabetical character. If the guessed letter is in the word, it will be revealed in the word. If not, you will lose a life. The game continues until you either guess the word or run out of lives.
+3. The game will prompt you to guess a letter. You need to input a single alphabetical character. If the guessed letter is in the word, it will be revealed in the word. If not, you will lose a life. The game continues until you either guess the word or run out of lives.
 
 ## Example
 ```
@@ -67,7 +68,7 @@ Hangman202/
 ├── milestone_3.py
 ├── milestone_4.py
 ├── milestone_5
-├─milestone_5_ref-op.py
+├─- milestone_5_ref-op.py
 ├── README.md
 ```
 
